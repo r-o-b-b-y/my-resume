@@ -1,5 +1,7 @@
 # ✨ Single File Resume Creator ✨ 
 
+## Demo: [https://github.com/r-o-b-b-y/resume](https://github.com/r-o-b-b-y/resume)
+
 ## ✍️ ➡️ 📄 👀 👍
 
 A build-less, easily shareable resume written in markdown and parsed using the marked JavaScript library. Styled with a GitHub markdown styles.
