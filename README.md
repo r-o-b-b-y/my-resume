@@ -1,8 +1,12 @@
-# Single File Resume Press
+# ✨ Single File Resume Press ✨ 
 
-A build-less, easily shareable resume written in markdown and parsed using the marked JavaScript library. Styled with a GitHub markdown stylesheet for a familiar look.
+## ✍️ ➡️ 📄 👀 👍
+
+A build-less, easily shareable resume written in markdown and parsed using the marked JavaScript library. Styled with a GitHub markdown styles.
 
  _A Low-Tech Resume for a High-Tech World_
+
+**No build commands or servers required. Just open the `index.html` file in a browser and read your resume. Click the "Export to HTML" or "Export to PDF" buttons to save a compact and self-contained copy for uploading or emailing.**
 
 ## Features
 
