@@ -13,7 +13,7 @@ A build-less, easily shareable resume written in markdown and parsed using the m
   - **HTML**: Export to HTML where JavaScript is no longer needed.
   - **PDF**: Export to PDF using a button/link that triggers the browser's print feature.
 - **Easily Sharable**: Can be shared as a plain HTML file or PDF, making resume uploading and emailing straightforward.
-- **GitHub Markdown Styling**: Styled with a GitHub markdown stylesheet for a familiar and clean look.
+- **GitHub Markdown Styling**: Styled with a GitHub markdown stylesheet, simple accessible familar styles
 
 ## Usage
 
