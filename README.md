@@ -1,6 +1,6 @@
 # ✨ Single File Resume Creator ✨ 
 
-## Demo: [https://github.com/r-o-b-b-y/resume](https://github.com/r-o-b-b-y/resume)
+## Demo: [https://r-o-b-b-y.github.io/resume/](https://r-o-b-b-y.github.io/resume/)
 
 ## ✍️ ➡️ 📄 👀 👍
 
