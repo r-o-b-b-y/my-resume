@@ -43,6 +43,11 @@
     }
   }
 
+  #markdown-content {
+    display: block;
+    white-space: pre;
+  }
+
   .markdown-body {
     box-sizing: border-box;
     min-width: 200px;
@@ -304,6 +309,9 @@ database.
 
       // Append the container to the body of the page
       document.body.appendChild(container);
+
+      document.querySelector('#markdown-content').style.display = 'none';
+
     });
   </script>
   <script class="cleansup">

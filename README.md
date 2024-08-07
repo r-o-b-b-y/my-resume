@@ -25,8 +25,9 @@ A build-less, easily shareable resume written in markdown and parsed using the m
 
 ## Usage
 
-- Just open it in a browser and read it!
+- Just open it your favorite ide to edit it and in a browser to preview it
 - Click Export to HTML or Export to PDF to save a compact and self contained copy for uploading or emailing.
+- Don't forget to set the `<title>` tag, this is used to create the filename when exporting
 
 ## Motivation
 
