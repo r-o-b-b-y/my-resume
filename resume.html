@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Robert Polana - Full-Stack Web Application Engineer</title>
   <link rel="stylesheet" class="cleansup"
-    href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.6.1/github-markdown-light.min.css">
+    href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.6.1/github-markdown-light.min.css"
+    crossorigin="anonymous" integrity="sha256-V7VGqG2TLikPlNmck88+u5z0PLfw1ytt50cp7sku0qM=">
 </head>
 <style>
   .vhs-effect {
@@ -272,7 +273,8 @@ database.
   </script>
 
   <!-- Include the marked.js library from a CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" class="cleansup"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" crossorigin="anonymous" class="cleansup"
+    integrity="sha256-Wt6n2O5BpwD8zBS7nVAxBPBHDMF6hK0+Fn0/UlHq4No="></script>
 
   <!-- Script to parse and display the Markdown content -->
   <script class="cleanups">
@@ -293,7 +295,7 @@ database.
       document.body.appendChild(container);
     });
   </script>
-  <script>
+  <script class="cleansup">
     async function exportHTML() {
       if (!document.querySelector('meta[name="processed"]')) {
         await convertStylesheetsToInline();
