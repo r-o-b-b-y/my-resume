@@ -10,13 +10,13 @@ A build-less, easily shareable resume written in markdown and parsed using the m
 
 ## Features
 
-- **Single File HTML Export**: Exports a single file with zero dependencies, even images are not externally linked but base64 encoded and embedded.
+- **Single File HTML Export**: Exports to a javascript-less single file with zero dependencies, even images are not externally linked but base64 encoded and embedded.
 - **Markdown-Based**: Written in markdown for easy readability and editing.
 - **JavaScript Parsing**: Uses the marked JavaScript library to parse markdown.
 - **Graceful Degradation**: Displays plain text markdown if JavaScript is disabled.
 - **Export Options**:
-  - **HTML**: Export to HTML where JavaScript is no longer needed.
-  - **PDF**: Export to PDF using a button/link that triggers the browser's print feature.
+  - **HTML**: Export to compact self-contained HTML file where JavaScript is no longer needed.
+  - **PDF**: Exports to PDF easily via printing to PDF
 - **Easily Sharable**: Can be shared as a plain HTML file or PDF, making resume uploading and emailing straightforward.
 - **GitHub Markdown Styling**: Styled with a GitHub markdown stylesheet, simple accessible familar styles
 
