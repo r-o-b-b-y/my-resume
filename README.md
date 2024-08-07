@@ -32,7 +32,7 @@ A build-less, easily shareable resume written in markdown and parsed using the m
 
 The motivation behind this project is to ensure that the resume content is always accessible and easy to manage:
 
-- **Resilient Design**: designed to be resilient, displaying plain text markdown if JavaScript is disabled, ensuring the content is always readable.
+- **Resilient Design**: designed to be resilient, the progenitor version will even display plain text markdown if JavaScript is disabled, ensuring the content is always readable. (but when exporting to HTML this does not happen)
 - **Single File Simplicity**: The entire resume is contained within a single HTML file, making it easy to download, edit, and share without any build steps.
 - **Flexible Export Options**: Developers can simply download the file, edit it, and then choose to share it as-is, or export it to HTML or PDF for easy uploading or emailing.
 - **No Build Steps Required**: The project is build-less, meaning there are no complex build steps or dependencies. Just download, edit, and share.
