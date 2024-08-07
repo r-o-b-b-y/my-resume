@@ -1,4 +1,4 @@
-# ✨ Single File Resume Press ✨ 
+# ✨ Single File Resume Creator ✨ 
 
 ## ✍️ ➡️ 📄 👀 👍
 
