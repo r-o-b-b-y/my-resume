@@ -12,7 +12,7 @@ A build-less, easily shareable resume written in markdown and parsed using the m
 **No build commands or servers required. Just open the `index.html` file in a browser and read your resume. Click the "Export to HTML" or "Export to PDF" buttons to save a compact and self-contained copy for uploading or emailing.**
 
 ## Features
-
+- Mobile Friendly!
 - **Single File HTML Export**: Exports to a javascript-less single file with zero dependencies, even images are not externally linked but base64 encoded and embedded.
 - **Markdown-Based**: Written in markdown for easy readability and editing.
 - **JavaScript Parsing**: Uses the marked JavaScript library to parse markdown.
