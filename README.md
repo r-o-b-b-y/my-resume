@@ -2,7 +2,7 @@
 
 ## ✍️ ➡️ 📄 👀 👍
 
-A build-less, easily shareable resume written in markdown and parsed using the marked JavaScript library. Styled with a GitHub markdown styles.
+A build-less, easily shareable resume written in markdown and parsed using the marked JavaScript library. Styled with a GitHub markdown styles. Export to single file dependency-less HTML document or PDF for easy uploading and emailing.
 
  _A Low-Tech Resume for a High-Tech World_
 
@@ -10,6 +10,7 @@ A build-less, easily shareable resume written in markdown and parsed using the m
 
 ## Features
 
+- **Single File HTML Export**: Exports a single file with zero dependencies, even images are not externally linked but base64 encoded and embedded.
 - **Markdown-Based**: Written in markdown for easy readability and editing.
 - **JavaScript Parsing**: Uses the marked JavaScript library to parse markdown.
 - **Graceful Degradation**: Displays plain text markdown if JavaScript is disabled.
