@@ -5,6 +5,8 @@
 
 ## ✍️ ➡️ 📄 👀 👍
 
+### Just edit the html then open it in your browser, ITS EASY AND SIMPLE!
+
 A build-less, easily shareable resume written in markdown and parsed using the marked JavaScript library. Styled with a GitHub markdown styles. Export to single file dependency-less HTML document or PDF for easy uploading and emailing.
 
  _A Low-Tech Resume for a High-Tech World_
