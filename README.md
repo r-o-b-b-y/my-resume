@@ -18,7 +18,7 @@ A build-less, easily shareable resume written in markdown and parsed using the m
 - **Single File HTML Export**: Exports to a javascript-less single file with zero dependencies, css is inserted inline, even images are not externally linked but base64 encoded and embedded.
 - **Markdown-Based**: Written in markdown for easy readability and editing.
 - **JavaScript Parsing**: Uses the marked JavaScript library to parse markdown.
-- **Graceful Degradation**: Displays plain text markdown if JavaScript is disabled.
+- **Graceful Degradation**: Prototype displays plain text markdown if JavaScript is disabled, once exported to html no javascript is needed
 - **Export Options**:
   - **HTML**: Export to compact self-contained HTML file where JavaScript is no longer needed.
   - **PDF**: Exports to PDF easily via printing to PDF
