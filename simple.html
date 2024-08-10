@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Doe - Full-Stack Web Application Engineer</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.6.1/github-markdown-light.min.css"
+    crossorigin="anonymous" integrity="sha256-V7VGqG2TLikPlNmck88+u5z0PLfw1ytt50cp7sku0qM=">
+</head>
+<style>
+  /* custom styles */
+  .markdown-body {
+    box-sizing: border-box;
+    min-width: 200px;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 45px;
+  }
+
+  /* top links */
+  ul:first-of-type {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0;
+    justify-content: space-between;
+
+    li {
+      margin: 0;
+    }
+  }
+</style>
+
+<noscript type="text/markdown" id="markdown-content" style="white-space: pre; font-family: monospace;">
+
+  # John Doe
+
+  ## Full-Stack Web Application Engineer
+
+  - [website](https://john-doe.netlify.app)
+  - [john.doe@example.com](mailto:john.doe@example.com)
+  - [github.com/johndoe](https://github.com/johndoe)
+  - [calendly/schedule a meeting](https://calendly.com/john-doe/30-min-phone-call)
+
+  ## Skills and Keywords
+
+  **Languages:** Javascript, TypeScript, Go, Ruby, Java and Python
+
+  **Data:** PostgreSQL, MongoDB, ORMs, active-record, SQL & NoSQL
+
+  **Deploy:** Kubernetes, AWS, lambdas, micro-services, serverless
+
+  **Markup:** jsx/tsx, Styled-Components/css-in-js, flexbox/css/sass
+
+  **State:** GraphQL, Redux, REST, oauth + jwt + sessions, single-page-app architecture
+
+  **Workflow:** test-driven, git, agile, pair-programming
+
+  **Front-End:** ReactJS, NextJS, Static and SSR optimizations, Tailwind CSS, d3
+
+  **Back End:** NodeJS + Express-like frameworks, Ruby on Rails, Django, Spring Boot
+
+  ## Experience
+
+  ### TechCompany
+
+  #### Senior Software Engineer / March 2019 - 2021
+
+  - Developed workflow and frameworks for testing frontend integrations amongst remote organizational services
+  - Improved the ci build pipeline; reduced build times by 70% and added tests and fail safes for prod deployments
+  - Built and extended front-end tooling to make for more robust efficient and happier development
+  - Authored and integrated visual diff testing framework for refactors and improvements
+  - Mentored junior and backend developers to be more successful front-end engineers
+  - Coordinated with team and project manager to set realistic goals and timelines for our teams frontend development
+  - Integrated monitoring tools to track front-end uptime and production health amongst our users and device profiles
+
+  - **Technologies used: Javascript, Typescript, Webpack, Cypress.io, Java, NodeJS+express, React+Redux, GraphQL**
+
+  ### CloudSolutions Inc
+
+  #### Technical Lead / October 2016 - November 2017
+
+  - Designed and built enterprise level solutions to meet organizational standards, demands and workloads.
+
+  - Mentored, tutored and evangelized new technologies and practices for a modern stack solution to meet enterprise
+  level requirements, such as scalability, access control, auditing and security.
+
+  - Triaged, created and managed issues/tasks with our offshore development team.
+
+  - Traveled on-site to meet with clients to determine project requirements and deliverables
+
+  - **Technologies used: NodeJS+express, React+Redux, GraphQL, Postgres**
+
+  ### ScaleTech
+
+  #### Lead Application Engineer Consultant / May 2015 - February 2016
+
+  - Contributed non-trivial pieces of core back-end functionality to a custom scalable Docker platform product used by
+  developers commercially for an industry leading client.
+
+  - Designed and implemented single-page-app architecture methodology and advanced front-end components to compliment
+  the functionality of the back-end Docker platform product.
+
+  - Showed initiative by improving testing and build integrity, which proved critical in developing a *developer
+  platform*
+
+  - Developed from the ground up using Go, a complete back-up and restore service for CassandraDB; a NoSQL distributed
+  database.
+
+  - **Technologies used: Go, AngularJS, Java, Docker, CassandraDB**
+
+  ### Et. al, (2010-2015)
+
+  #### HealthTech - Senior Software Engineer / November 2014 - February 2015
+
+  #### DigitalCraft - Senior Software Engineer / June 2014 - October 2014
+
+  #### ShippingSolutions - Senior Front-End Engineer / August 2013 - December 2013
+
+  #### CookingTech - Web Application Engineer / April 2012 - July 2012
+
+  #### StreamLabs - Web Service Engineer / August 2011 - December 2011
+
+  #### CodeFactory - Junior Developer / January 2011 - July 2011
+
+  #### CallCenter IT & Database and Systems Administrator / March 2010 - November 2010
+
+</noscript>
+
+
+<!-- Include the marked.js library from a CDN -->
+<script src="https://cdn.jsdelivr.net/npm/marked@13.0.3/marked.min.js" crossorigin="anonymous"
+  integrity="sha256-Wt6n2O5BpwD8zBS7nVAxBPBHDMF6hK0+Fn0/UlHq4No="></script>
+
+<!-- Script to parse and display the Markdown content -->
+<script class="cleanups">
+  document.addEventListener("DOMContentLoaded", function () {
+    // Get the content of the script tag
+    let markdownContent = document.getElementById('markdown-content').textContent;
+
+    // Parse the Markdown content
+    const parsedHtml = marked.marked(markdownContent);
+
+    // Create a new div element to hold the parsed content
+    const container = document.createElement('div');
+
+    // Set the inner HTML of the container to the parsed HTML
+    container.innerHTML = parsedHtml;
+
+    // Append the container to the body of the page
+    document.body.appendChild(container);
+
+    document.querySelector('#markdown-content').style.display = 'none';
+
+  });
+</script>
+
+<body class="markdown-body">
+</body>
+
+</html>
