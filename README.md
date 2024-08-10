@@ -1,7 +1,7 @@
 # My Resume is a...
 # ✨ Resilient Single File Resume Creator ✨ 
 
-## demo: [https://r-o-b-b-y.github.io/my-resume/](https://r-o-b-b-y.github.io/my-resume/)
+## demo: [https://rbbydotdev.github.io/resume/](https://rbbydotdev.github.io/resume/)
 
 ## ✍️ ➡️ 📄 👀 👍
 
