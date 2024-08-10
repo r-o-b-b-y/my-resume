@@ -10,6 +10,8 @@
     crossorigin="anonymous" integrity="sha256-V7VGqG2TLikPlNmck88+u5z0PLfw1ytt50cp7sku0qM=">
 </head>
 <style>
+</style>
+<style>
   .vhs-effect {
     position: relative;
     animation: vhs 2s infinite linear;
@@ -72,6 +74,11 @@
 
   }
 
+  * {
+    font-family: monospace;
+
+  }
+
   img:first-of-type {
     width: 100px;
     height: 100px;
@@ -87,20 +94,22 @@
 
   ul:first-of-type {
     padding-left: 0;
+    text-align: center;
 
     li {
       white-space: nowrap;
       display: inline;
       text-transform: uppercase;
-      font-size: 0.8rem;
+      font-size: 1rem;
       font-family: monospace;
 
       a {
         padding: 0.5rem;
         line-height: 3rem;
-        background: slateblue;
+        /* background: slateblue; */
         border-radius: 0.5rem;
-        color: white;
+        /* color: white; */
+        text-decoration: underline;
       }
     }
   }
@@ -112,6 +121,9 @@
   #javascript-plea {
     font-family: fantasy;
   }
+
+
+
 
   @media print {
     #javascript-plea {
@@ -143,12 +155,11 @@
       line-height: 1.2;
     }
 
-
-    /* why not?
+    /* 
     .call-out {
       display: none;
-    } 
-    */
+    } */
+
     .call-out.vhs-effect {
       text-shadow: 8px 8px 0 rgba(106, 90, 205, 0.25) !important;
       animation: none;
@@ -179,112 +190,115 @@
   <!-- Script tag containing Markdown content -->
   <script type="text/markdown" id="markdown-content" class="cleansup">
 
-# ![](https://avatars.githubusercontent.com/u/101137670) Robby Polana 
+<!-- # ![](https://avatars.githubusercontent.com/u/101137670) Robby Polana  -->
+# Robby Polana
 
 
-## 👨🏻‍💻 Full-Stack Web Application Engineer <br/> **🇺🇸 USA Based / Boulder, Colorado**
+## Full-Stack Web Application Engineer
+## USA Based in Boulder, Colorado
 
-- [prints-to-pdf](javascript:if(window.print)window.print())
-- [export-to-html](javascript:exportHTML())
-- [website](https://robby-robby.netlify.app)
+- [download-as-pdf](javascript:'prints';if(window.print)window.print())
+- [download-as-html](javascript:'exports';exportHTML())
+- [website](https://rbby.dev)
 - [robby.polana@gmail.com](mailto:robby.polana@gmail.com)
-- [github.com/r-o-b-b-y](https://github.com/r-o-b-b-y)
+- [github.com/rbbydotdev](https://github.com/rbbydotdev)
 - [schedule a chat](https://calendly.com/robby/30-min-phone-call)
 
 ## Skills and Keywords
 
-<div class="vhs-effect call-out">React, Typescript & Go</div>
+  <!-- <div class="vhs-effect call-out">React, Typescript & Go</div> -->
 
-- **Languages:** TypeScript, Go, Javascript, Ruby, Java and Python
+  - **Languages:** TypeScript, Go, Javascript, Ruby, Java and Python
 
-- **Data:** SQLite, PostgreSQL, ORMs & NoSQL
+  - **Data:** SQLite, PostgreSQL, ORMs & NoSQL
 
-- **Deploy:** Kubernetes, AWS, lambdas, serverless
+  - **Deploy:** Kubernetes, AWS, lambdas, serverless
 
-- **Markup:** tailwind, jsx/tsx, Styled-Components/css-in-js, grid/flexbox/css/sass
+  - **Markup:** tailwind, jsx/tsx, Styled-Components/css-in-js, grid/flexbox/css/sass
 
-- **State:** Redux, REST, oauth + jwt + sessions, GraphQL, single-page-app architecture
+  - **State:** Redux, REST, oauth & jwt & sessions, GraphQL, single-page-app architecture
 
-- **Workflow:** test-driven, git, agile, pair-programming
+  - **Workflow:** test-driven, git, agile, pair-programming
 
-- **Front-End:** React, NextJS, Static and SSR optimizations, Tailwind CSS, d3
+  - **Front-End:** React, NextJS, Static and SSR optimizations, Tailwind CSS, d3
 
-- **Back End:** NodeJS + Express-like frameworks, Ruby on Rails, Django, Spring Boot
+  - **Back End:** NodeJS & Express-like frameworks, Ruby on Rails, Django, Spring Boot
 
-## Experience
+  ## Experience
 
-### Freelance / Side-Projects / Leetcode 
+  ### Freelance / Side-Projects / Leetcode
 
-#### July 2021 - Present
+  #### July 2021 - Present
 
-- Developed a zero-dependency scheduling app written in Go
-- Developed a simple/user-friendly e-commerce solution with a novel payment integration using Nextjs Typescript and TailwindCSS
-- Created and developed a ChatGPT CLI tool for personal use; _excited to share - ask for a demo!_
-- Solved 400+ Leetcode problems
-- Continued learning and developing with React, Typescript, Go, and Python 
+  - Developed a zero-dependency scheduling app written in Go
+  - Developed a simple/user-friendly e-commerce solution with a novel payment integration using Nextjs Typescript and
+  TailwindCSS
+  - Created and developed a ChatGPT CLI tool for personal use; _excited to share - ask for a demo!_
+  - Solved 400+ Leetcode problems
+  - Continued learning and developing with React, Typescript, Go, and Python
 
-### Squarespace
+  ### Squarespace
 
-#### Senior Software Engineer / March 2019 - 2021
+  #### Senior Software Engineer / March 2019 - 2021
 
-- Developed workflow and frameworks for testing frontend integrations amongst remote organizational services
-- Improved the ci build pipeline; reduced build times by 70% and added tests and fail safes for prod deployments
-- Built and extended front-end tooling to make for more robust efficient and happier development
-- Authored and integrated visual diff testing framework for refactors and improvements
-- Mentored junior and backend developers to be more successful front-end engineers
-- Coordinated with team and project manager to set realistic goals and timelines for our teams frontend development
-- Integrated monitoring tools to track front-end uptime and production health amongst our users and device profiles
+  - Developed workflow and frameworks for testing frontend integrations amongst remote organizational services
+  - Improved the ci build pipeline; reduced build times by 70% and added tests and fail safes for prod deployments
+  - Built and extended front-end tooling to make for more robust efficient and happier development
+  - Authored and integrated visual diff testing framework for refactors and improvements
+  - Mentored junior and backend developers to be more successful front-end engineers
+  - Coordinated with team and project manager to set realistic goals and timelines for our teams frontend development
+  - Integrated monitoring tools to track front-end uptime and production health amongst our users and device profiles
 
-- **Technologies used: Javascript, Typescript, Webpack, Cypress.io, Java, NodeJS+express, React+Redux, GraphQL**
+  - **Technologies used: Javascript, Typescript, Webpack, Cypress.io, Java, NodeJS & express, React+Redux, GraphQL**
 
-### Appirio Inc
+  ### Appirio Inc
 
-#### Technical Lead / October 2016 - November 2017
+  #### Technical Lead / October 2016 - November 2017
 
-- Designed and built enterprise level solutions to meet organizational standards, demands and workloads.
+  - Designed and built enterprise level solutions to meet organizational standards, demands and workloads.
 
-- Mentored, tutored and evangelized new technologies and practices for a modern stack solution to meet enterprise
-level requirements, such as scalability, access control, auditing and security.
+  - Mentored, tutored and evangelized new technologies and practices for a modern stack solution to meet enterprise
+  level requirements, such as scalability, access control, auditing and security.
 
-- Triaged, created and managed issues/tasks with our offshore development team.
+  - Triaged, created and managed issues/tasks with our offshore development team.
 
-- Traveled on-site to meet with clients to determine project requirements and deliverables
+  - Traveled on-site to meet with clients to determine project requirements and deliverables
 
-- **Technologies used: NodeJS+express, React+Redux, GraphQL, Postgres**
+  - **Technologies used: NodeJS & express, React & Redux, GraphQL, Postgres**
 
-### MustWin
+  ### MustWin
 
-#### Lead Application Engineer Consultant / May 2015 - February 2016
+  #### Lead Application Engineer Consultant / May 2015 - February 2016
 
-- Contributed non-trivial pieces of core back-end functionality to a custom scalable Docker platform product used by
-developers commercially for an industry leading client.
+  - Contributed non-trivial pieces of core back-end functionality to a custom scalable Docker platform product used by
+  developers commercially for an industry leading client.
 
-- Designed and implemented single-page-app architecture methodology and advanced front-end components to compliment
-the functionality of the back-end Docker platform product.
+  - Designed and implemented single-page-app architecture methodology and advanced front-end components to compliment
+  the functionality of the back-end Docker platform product.
 
-- Showed initiative by improving testing and build integrity, which proved critical in developing a *developer
-platform*
+  - Showed initiative by improving testing and build integrity, which proved critical in developing a *developer
+  platform*
 
-- Developed from the ground up using Go, a complete back-up and restore service for CassandraDB; a NoSQL distributed
-database.
+  - Developed from the ground up using Go, a complete back-up and restore service for CassandraDB; a NoSQL distributed
+  database.
 
-- **Technologies used: Go, AngularJS, Java, Docker, CassandraDB**
+  - **Technologies used: Go, AngularJS, Java, Docker, CassandraDB**
 
-### Et. al, (2010-2015)
+  ### Et. al, (2010-2015)
 
-- **Mimir Health Intelligence - Senior Software Engineer / November 2014 - February 2015**
+  - **Mimir Health Intelligence - Senior Software Engineer / November 2014 - February 2015**
 
-- **Razorfish - Senior Software Engineer / June 2014 - October 2014**
+  - **Razorfish - Senior Software Engineer / June 2014 - October 2014**
 
-- **ShipStation - Senior Front-End Engineer / August 2013 - December 2013**
+  - **ShipStation - Senior Front-End Engineer / August 2013 - December 2013**
 
-- **Cooking Planit - Web Application Engineer / April 2012 - July 2012**
+  - **Cooking Planit - Web Application Engineer / April 2012 - July 2012**
 
-- **Spawn Labs - Web Service Engineer / August 2011 - December 2011**
+  - **Spawn Labs - Web Service Engineer / August 2011 - December 2011**
 
-- **Fuery Solutions - Junior Developer / January 2011 - July 2011**
+  - **Fuery Solutions - Junior Developer / January 2011 - July 2011**
 
-- **Telefund IT & Database and Systems Administrator / March 2010 - November 2010**
+  - **Telefund IT & Database and Systems Administrator / March 2010 - November 2010**
 
   </script>
 
@@ -362,7 +376,7 @@ database.
       await Promise.all(promises);
     }
     function removeCleanupElements() {
-      const elements = document.querySelectorAll('.cleansup');
+      const elements = document.querySelectorAll(`.cleansup, script, a[href^="javascript:'exports'"]`);
       elements.forEach(el => el.remove());
     }
     function markDocumentAsProcessed() {
